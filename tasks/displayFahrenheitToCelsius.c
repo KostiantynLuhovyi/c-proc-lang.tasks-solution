@@ -28,7 +28,7 @@ float enterStepCalculateCelsiusTemperatures() {
 bool isUpperGreatestOrEqualThanLowerFahrenheitTemperatures(float lowerFahrenheitTemperature,
                                                            float upperFahrenheitTemperature) {
     bool resultOfCheck;
-    if (upperFahrenheitTemperature <= upperFahrenheitTemperature) {
+    if (lowerFahrenheitTemperature <= upperFahrenheitTemperature) {
         resultOfCheck = true;
     } else {
         resultOfCheck = false;
